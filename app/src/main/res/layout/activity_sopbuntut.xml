@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.prasetyanaa.resepmakanan.SopBuntutActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginStart="14dp"
+            android:text="Sop Buntut"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_alignLeft="@+id/textView10"
+            android:layout_alignStart="@+id/textView10"
+            android:layout_below="@+id/textView10"
+            android:layout_marginTop="22dp"
+            app:srcCompat="@drawable/sopbuntut" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/imageView6"
+            android:layout_marginTop="26dp"
+            android:text="1. Pepes Tahu Salmon Sayur
+Bahan-bahan
+
+    500 gr buntut sapi / iga sapi (rebus sampai empuk ya)
+    1.5 liter air
+    2 sdm minyak goreng
+    3 siung bawang putih cincang halus
+    3 siung bawang merah cincang halus
+    1 ruas jahe memarkan
+    1/2 sdt merica bubuk
+    1.5 sdt garam
+    1/2 sdt gula
+    1 batang kayu manis
+    7 biji cengkeh
+    2 buah kentang potong dadu besar
+    2 buah wortel potong dadu besar
+    2 batang daun bawang potong2
+    1 buah tomat potong dadu besar
+
+Langkah
+
+    Siapkan panci, tuang minyak goreng dan tumis bawang merah, bawang putih, jahe
+
+    Setelah tumisan harum, tuangkan air, tunggu sampai mendidih
+
+    Masukkan kentang dan wortel, rebus sampai empuk
+
+    Masukkan iga/buntu yang sudah direbus
+
+    Masukkan garam, gula, merica, kayu manis, cengkeh. tes rasa
+
+    Jika dirasa sudah pas rasanya, sebelum kompor dimatikan masukkan daun bawang dan tomat. taburi bawang goreng. matikan kompor. dan sup iga/buntut lezatoo siap dinikmati bersama nasi putih hangat
+
+" />
+    </RelativeLayout>
+</ScrollView>
